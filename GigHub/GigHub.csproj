@@ -199,6 +199,10 @@
     <Compile Include="Migrations\201904141210348_OverrideConventionsForGigsAndGenres.Designer.cs">
       <DependentUpon>201904141210348_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904161712200_AddForeignKeyPropertiesToGig.cs" />
+    <Compile Include="Migrations\201904161712200_AddForeignKeyPropertiesToGig.Designer.cs">
+      <DependentUpon>201904161712200_AddForeignKeyPropertiesToGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -293,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904141210348_OverrideConventionsForGigsAndGenres.resx">
       <DependentUpon>201904141210348_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904161712200_AddForeignKeyPropertiesToGig.resx">
+      <DependentUpon>201904161712200_AddForeignKeyPropertiesToGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
